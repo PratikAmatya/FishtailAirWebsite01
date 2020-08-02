@@ -1,3 +1,3 @@
-# First Draft of Fishtail Air Website
+# First Draft of Fishtail Air
 
-...Personal Project...
+Personal Project
