@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>home page</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Comfortaa|Rajdhani&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Poppins&display=swap" rel="stylesheet">
+
+<!-- External CSS -->
+<style>
+*{
+   
+    margin:0;
+    padding:0;
+}
+.nav{
+    margin-top:300px;
+    font-size:0;
+    text-align: left;
+    display: block;
+    position:fixed;
+    z-index: 1;
+}
+.media {
+    position:relative;
+    height:8%;
+    width: 8%;
+}
+.media:hover{
+    width: 10%;
+    height: 8%;
+    transition: ease-in-out;
+    transition: 0.4s;
+}
+.logo{
+    height:13%;
+    width:13%;
+    text-align: left;
+    float: left;
+}
+h1{
+    margin-left:45%;
+    padding: 10px;
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 1px;
+    color: #093F8C;
+    font-size: 35px;
+}
+.headnav{
+    color: #093F8C;
+    text-align: center;
+    
+    line-height: 100%;
+    padding-left: 10px;
+    
+    display: flex;
+  justify-content: center;
+}
+.headnav a{
+    text-align: center;
+    text-decoration: none;
+    color: #093F8C;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    word-spacing: 2px;
+}
+.headnav a:hover{
+    color: #DA2513;
+}
+.heads{
+    display: block;
+    float: left;
+    padding-right: 15px;
+}
+/* image */
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .6} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .6} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.info{
+    font-family: 'Noto Sans', sans-serif;
+    padding-left:60px;
+    padding-right: 60px;
+    padding-top: 20px;
+}
+.info h2{
+    font-family: 'Satisfy', cursive;
+    font-size: 35px;
+    text-align: center;
+}
+.info p{
+    font-size: 18px;
+}
+.info ul{
+    padding-left: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+}
+.footer{
+    background-color: #9AA5FF;
+    text-align: center;
+    height:40px;
+    color: #093F8C;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 100%;
+    display: block;
+  left: 50%;
+  padding-top: 16px;
+  
+}
+</style>
+<body>
+    <br>
+    <img class="logo" src="img/fishtaillogo.png" alt="fishtailair">
+    <div class="nav">
+            <a href="#">
+                <img class="media" src="img/facebook.png" alt="facebook"/>
+            </a>
+            <br>
+        
+            <a href="#">
+                <img class="media" src="img/gmail.png" alt="facebook"/>
+            </a>
+        <br>
+            <a href="#">
+                <img class="media" src="img/twitter.png" alt="facebook"/>
+            </a>
+      
+    </div> 
+   <h1>Fistail Air</h1>
+   <div class="headnav">
+   
+       <div class="heads">
+       <a href="#" class="heads">Home</a>
+        </div>
+       
+       <div>
+       <a href="#" class="heads">Heli Tours</a>
+    </div>
+       <div>
+       <a href="#" class="heads">Designation</a>
+    </div>
+       <div>
+       <a href="#" class="heads">Aircrafts</a>
+    </div>
+       <div>
+       <a href="#" class="heads">Photo Gallery</a>
+   </div>
+   <div>
+    <a href="#" class="heads">Contact Us</a>
+</div>
+   <br>
+<br>
+<br>
+
+
+</div>
+ <hr width="65%"  style="color: #093F8C;text-align: center;display: block;margin-left: 310px;"> 
+
+<div class="slideshow-container" style="padding-top: 30px;">
+
+    <div class="mySlides fade">
+     
+      <img src="img/slide1.jpg" style="width:100%">
+      
+    </div>
+    
+    <div class="mySlides fade">
+      
+      <img src="img/slide2.jpg" style="width:100%">
+      
+    </div>
+    
+    <div class="mySlides fade">
+      
+      <img src="img/slide3.jpg" style="width:100%">
+      
+    </div>
+    <div class="mySlides fade">
+        
+        <img src="img/slide4.jpg" style="width:100%">
+        
+      </div>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+    <br>
+    <div class="info" style="background-color: #CCD2FF;color: #093F8C;">
+    <h2>Who we are</h2>
+    <br>
+    <p>
+We are a Helicopter Charter company operating within Nepal and sometimes transborder flights according to the demand in Bhutan and India. The company was established in the year 1997 under the Air Operators Certificate issued by the government of Nepal.
+<br>
+<br>
+Our fleet of helicopters consists of 2 ‘Ecureuil’s – one AS 350 B3e, AS 350 B3+ and one Bell Jet Ranger 206 BIII registered 9N-AJQ, 9N-AJR and 9N-AII respectively. The variances in the type of flights we operate are:
+    </p>
+<ul>
+    <li>Aerial Sightseeing & Mountain Flights</li> 
+    <li> Rescue Evacuation</li> 
+    <li>Air Ambulance Service</li>
+    <li>Corporate Charter</li>
+    <li>Project support</li>
+    <li>Expeditions</li>
+    <li>Sight surveys</li>
+    <li>A recently popularized adventure Heli-trekking in the Himalayas</li>
+    <li>Pilgrimage tours</li>
+    <li>Sling Operation, High altitude operation, Transborder flights</li>
+    <li>Special Adventure missions- Heli Skydive, Heli Skiing</li>
+    </ul>
+    <br>
+    <p>
+Our Management Team:
+<ul>
+    <li>Chairman- BIKASH JB RANA</li>
+    <li>CEO- SUMAN PANDEY</li>
+    <li>Executive Director/Operation - CAPT. DEEPAK JB RANA</li>
+    <li>Technical Director- COL. ER. BISHWO K. GORKHALI (RTD)</li>
+    <li>Finance Director- MR. KIRTI BH. BASNET</li>
+    <li>Chief Pilot - COL. PRATIGYA RANA(RTD)</li>
+</ul>
+</p>
+<br>
+<p>
+Our Crew Members: 
+<ul>
+    <li>CAPT. Deepak JB Rana</li>
+    <li> COL. Pratigya Rana(RTD)</li>
+    <li>CAPT. Deepak Garbuja Pun</li>
+    <li>CAPT. Sujal Shrestha</li>
+    <li>CAPT. Sabin Lama</li>
+    <li>CAPT. Prabal Chaulagain (F/O)</li>
+</ul>
+    </p>
+    <br>
+    </div>
+    <br>
+  
+
+    <div class="footer">
+       <strong> &copy;  Fishtail Air Pvt. Ltd. <script>document.write(new Date().getFullYear());</script></strong>
+</div>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 5000); // Change image every 2 seconds
+        }
+        </script>
+        
+</body>
+</html>
